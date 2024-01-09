@@ -1,0 +1,11 @@
+* {
+    color: orange;
+}
+
+.texto-com-background {
+    background-color: yellow;
+}
+
+h2#texto-com-outra-cor {
+    color: green;
+}

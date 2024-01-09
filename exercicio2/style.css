@@ -1,0 +1,18 @@
+header {
+    border: solid black 1px;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    background-color: burlywood;
+}
+
+main {
+    background-color: beige;
+    height: 800px;
+}
+
+footer {
+    border: solid black 1px;
+    height: 30px;
+    background-color: brown;
+}
