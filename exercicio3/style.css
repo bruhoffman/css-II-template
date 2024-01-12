@@ -1,6 +1,13 @@
-body {
-    text-align: center;
+button {
+    width: 30vw;
+    height: 10vw;
+    border-radius: 10px;
+    border: none;
 }
+
+/* body {
+    text-align: center;
+} */
 
 button:hover {
     background-color: red;
@@ -8,6 +15,24 @@ button:hover {
 }
 
 button:active {
-    background-color: pink;
-    color: red;
+    /* background-color: pink;
+    color: red; */
+    opacity: 0.6;
+}
+
+div {
+    background-color: bisque;
+}
+
+span {
+    background-color: lightblue;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    background-color: aquamarine;
+    height: 30px;
+    width: 150px;
+    text-align: center;
 }

@@ -1,4 +1,10 @@
-* {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     color: orange;
 }
 
@@ -6,6 +12,23 @@
     background-color: yellow;
 }
 
-h2#texto-com-outra-cor {
+#texto-com-outra-cor {
     color: green;
+}
+
+section p {
+    background-color: aqua;
+}
+
+/* #segundo {
+    background-color: violet;
+} */
+
+section p:nth-child(2) {
+    background-color: violet;
+    color: white;
+}
+
+section+span {
+    background-color: blueviolet;
 }
